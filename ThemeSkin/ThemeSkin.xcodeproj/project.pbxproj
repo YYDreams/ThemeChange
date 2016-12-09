@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		476FE06D1DFA65F0003AEA3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 476FE06C1DFA65F0003AEA3B /* main.m */; };
+		476FE0701DFA65F0003AEA3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476FE06F1DFA65F0003AEA3B /* AppDelegate.m */; };
+		476FE0731DFA65F0003AEA3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476FE0721DFA65F0003AEA3B /* ViewController.m */; };
+		476FE0761DFA65F0003AEA3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476FE0741DFA65F0003AEA3B /* Main.storyboard */; };
+		476FE0781DFA65F0003AEA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476FE0771DFA65F0003AEA3B /* Assets.xcassets */; };
+		476FE07B1DFA65F0003AEA3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476FE0791DFA65F0003AEA3B /* LaunchScreen.storyboard */; };
+		476FE0861DFA65F0003AEA3B /* ThemeSkinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 476FE0851DFA65F0003AEA3B /* ThemeSkinTests.m */; };
+		476FE0911DFA65F0003AEA3B /* ThemeSkinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 476FE0901DFA65F0003AEA3B /* ThemeSkinUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		476FE0821DFA65F0003AEA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476FE0601DFA65F0003AEA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476FE0671DFA65F0003AEA3B;
+			remoteInfo = ThemeSkin;
+		};
+		476FE08D1DFA65F0003AEA3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 476FE0601DFA65F0003AEA3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476FE0671DFA65F0003AEA3B;
+			remoteInfo = ThemeSkin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		476FE0681DFA65F0003AEA3B /* ThemeSkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemeSkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		476FE06C1DFA65F0003AEA3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		476FE06E1DFA65F0003AEA3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		476FE06F1DFA65F0003AEA3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		476FE0711DFA65F0003AEA3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		476FE0721DFA65F0003AEA3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		476FE0751DFA65F0003AEA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		476FE0771DFA65F0003AEA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		476FE07A1DFA65F0003AEA3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		476FE07C1DFA65F0003AEA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476FE0811DFA65F0003AEA3B /* ThemeSkinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeSkinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476FE0851DFA65F0003AEA3B /* ThemeSkinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeSkinTests.m; sourceTree = "<group>"; };
+		476FE0871DFA65F0003AEA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		476FE08C1DFA65F0003AEA3B /* ThemeSkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemeSkinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		476FE0901DFA65F0003AEA3B /* ThemeSkinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThemeSkinUITests.m; sourceTree = "<group>"; };
+		476FE0921DFA65F0003AEA3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		476FE0651DFA65F0003AEA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476FE07E1DFA65F0003AEA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476FE0891DFA65F0003AEA3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476FE05F1DFA65F0003AEA3B = {
+			isa = PBXGroup;
+			children = (
+				476FE06A1DFA65F0003AEA3B /* ThemeSkin */,
+				476FE0841DFA65F0003AEA3B /* ThemeSkinTests */,
+				476FE08F1DFA65F0003AEA3B /* ThemeSkinUITests */,
+				476FE0691DFA65F0003AEA3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		476FE0691DFA65F0003AEA3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				476FE0681DFA65F0003AEA3B /* ThemeSkin.app */,
+				476FE0811DFA65F0003AEA3B /* ThemeSkinTests.xctest */,
+				476FE08C1DFA65F0003AEA3B /* ThemeSkinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		476FE06A1DFA65F0003AEA3B /* ThemeSkin */ = {
+			isa = PBXGroup;
+			children = (
+				476FE06E1DFA65F0003AEA3B /* AppDelegate.h */,
+				476FE06F1DFA65F0003AEA3B /* AppDelegate.m */,
+				476FE0711DFA65F0003AEA3B /* ViewController.h */,
+				476FE0721DFA65F0003AEA3B /* ViewController.m */,
+				476FE0741DFA65F0003AEA3B /* Main.storyboard */,
+				476FE0771DFA65F0003AEA3B /* Assets.xcassets */,
+				476FE0791DFA65F0003AEA3B /* LaunchScreen.storyboard */,
+				476FE07C1DFA65F0003AEA3B /* Info.plist */,
+				476FE06B1DFA65F0003AEA3B /* Supporting Files */,
+			);
+			path = ThemeSkin;
+			sourceTree = "<group>";
+		};
+		476FE06B1DFA65F0003AEA3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				476FE06C1DFA65F0003AEA3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		476FE0841DFA65F0003AEA3B /* ThemeSkinTests */ = {
+			isa = PBXGroup;
+			children = (
+				476FE0851DFA65F0003AEA3B /* ThemeSkinTests.m */,
+				476FE0871DFA65F0003AEA3B /* Info.plist */,
+			);
+			path = ThemeSkinTests;
+			sourceTree = "<group>";
+		};
+		476FE08F1DFA65F0003AEA3B /* ThemeSkinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				476FE0901DFA65F0003AEA3B /* ThemeSkinUITests.m */,
+				476FE0921DFA65F0003AEA3B /* Info.plist */,
+			);
+			path = ThemeSkinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		476FE0671DFA65F0003AEA3B /* ThemeSkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476FE0951DFA65F0003AEA3B /* Build configuration list for PBXNativeTarget "ThemeSkin" */;
+			buildPhases = (
+				476FE0641DFA65F0003AEA3B /* Sources */,
+				476FE0651DFA65F0003AEA3B /* Frameworks */,
+				476FE0661DFA65F0003AEA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemeSkin;
+			productName = ThemeSkin;
+			productReference = 476FE0681DFA65F0003AEA3B /* ThemeSkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476FE0801DFA65F0003AEA3B /* ThemeSkinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476FE0981DFA65F0003AEA3B /* Build configuration list for PBXNativeTarget "ThemeSkinTests" */;
+			buildPhases = (
+				476FE07D1DFA65F0003AEA3B /* Sources */,
+				476FE07E1DFA65F0003AEA3B /* Frameworks */,
+				476FE07F1DFA65F0003AEA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476FE0831DFA65F0003AEA3B /* PBXTargetDependency */,
+			);
+			name = ThemeSkinTests;
+			productName = ThemeSkinTests;
+			productReference = 476FE0811DFA65F0003AEA3B /* ThemeSkinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		476FE08B1DFA65F0003AEA3B /* ThemeSkinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 476FE09B1DFA65F0003AEA3B /* Build configuration list for PBXNativeTarget "ThemeSkinUITests" */;
+			buildPhases = (
+				476FE0881DFA65F0003AEA3B /* Sources */,
+				476FE0891DFA65F0003AEA3B /* Frameworks */,
+				476FE08A1DFA65F0003AEA3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476FE08E1DFA65F0003AEA3B /* PBXTargetDependency */,
+			);
+			name = ThemeSkinUITests;
+			productName = ThemeSkinUITests;
+			productReference = 476FE08C1DFA65F0003AEA3B /* ThemeSkinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		476FE0601DFA65F0003AEA3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "花花";
+				TargetAttributes = {
+					476FE0671DFA65F0003AEA3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6AVJ5M6ED8;
+						ProvisioningStyle = Automatic;
+					};
+					476FE0801DFA65F0003AEA3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6AVJ5M6ED8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 476FE0671DFA65F0003AEA3B;
+					};
+					476FE08B1DFA65F0003AEA3B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6AVJ5M6ED8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 476FE0671DFA65F0003AEA3B;
+					};
+				};
+			};
+			buildConfigurationList = 476FE0631DFA65F0003AEA3B /* Build configuration list for PBXProject "ThemeSkin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 476FE05F1DFA65F0003AEA3B;
+			productRefGroup = 476FE0691DFA65F0003AEA3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				476FE0671DFA65F0003AEA3B /* ThemeSkin */,
+				476FE0801DFA65F0003AEA3B /* ThemeSkinTests */,
+				476FE08B1DFA65F0003AEA3B /* ThemeSkinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		476FE0661DFA65F0003AEA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476FE07B1DFA65F0003AEA3B /* LaunchScreen.storyboard in Resources */,
+				476FE0781DFA65F0003AEA3B /* Assets.xcassets in Resources */,
+				476FE0761DFA65F0003AEA3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476FE07F1DFA65F0003AEA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476FE08A1DFA65F0003AEA3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		476FE0641DFA65F0003AEA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476FE0731DFA65F0003AEA3B /* ViewController.m in Sources */,
+				476FE0701DFA65F0003AEA3B /* AppDelegate.m in Sources */,
+				476FE06D1DFA65F0003AEA3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476FE07D1DFA65F0003AEA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476FE0861DFA65F0003AEA3B /* ThemeSkinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476FE0881DFA65F0003AEA3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476FE0911DFA65F0003AEA3B /* ThemeSkinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		476FE0831DFA65F0003AEA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476FE0671DFA65F0003AEA3B /* ThemeSkin */;
+			targetProxy = 476FE0821DFA65F0003AEA3B /* PBXContainerItemProxy */;
+		};
+		476FE08E1DFA65F0003AEA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476FE0671DFA65F0003AEA3B /* ThemeSkin */;
+			targetProxy = 476FE08D1DFA65F0003AEA3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		476FE0741DFA65F0003AEA3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476FE0751DFA65F0003AEA3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		476FE0791DFA65F0003AEA3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				476FE07A1DFA65F0003AEA3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		476FE0931DFA65F0003AEA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		476FE0941DFA65F0003AEA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		476FE0961DFA65F0003AEA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AVJ5M6ED8;
+				INFOPLIST_FILE = ThemeSkin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flower.ThemeSkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		476FE0971DFA65F0003AEA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6AVJ5M6ED8;
+				INFOPLIST_FILE = ThemeSkin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flower.ThemeSkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		476FE0991DFA65F0003AEA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AVJ5M6ED8;
+				INFOPLIST_FILE = ThemeSkinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flower.ThemeSkinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeSkin.app/ThemeSkin";
+			};
+			name = Debug;
+		};
+		476FE09A1DFA65F0003AEA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6AVJ5M6ED8;
+				INFOPLIST_FILE = ThemeSkinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flower.ThemeSkinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThemeSkin.app/ThemeSkin";
+			};
+			name = Release;
+		};
+		476FE09C1DFA65F0003AEA3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6AVJ5M6ED8;
+				INFOPLIST_FILE = ThemeSkinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flower.ThemeSkinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeSkin;
+			};
+			name = Debug;
+		};
+		476FE09D1DFA65F0003AEA3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6AVJ5M6ED8;
+				INFOPLIST_FILE = ThemeSkinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = flower.ThemeSkinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThemeSkin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		476FE0631DFA65F0003AEA3B /* Build configuration list for PBXProject "ThemeSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476FE0931DFA65F0003AEA3B /* Debug */,
+				476FE0941DFA65F0003AEA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		476FE0951DFA65F0003AEA3B /* Build configuration list for PBXNativeTarget "ThemeSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476FE0961DFA65F0003AEA3B /* Debug */,
+				476FE0971DFA65F0003AEA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		476FE0981DFA65F0003AEA3B /* Build configuration list for PBXNativeTarget "ThemeSkinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476FE0991DFA65F0003AEA3B /* Debug */,
+				476FE09A1DFA65F0003AEA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		476FE09B1DFA65F0003AEA3B /* Build configuration list for PBXNativeTarget "ThemeSkinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				476FE09C1DFA65F0003AEA3B /* Debug */,
+				476FE09D1DFA65F0003AEA3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 476FE0601DFA65F0003AEA3B /* Project object */;
+}
